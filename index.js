@@ -61,8 +61,6 @@ window.onload=function() {
   function compute() {
     let inputVariable = document.querySelector('input');
     result = +eval(inputVariable.value);
-    console.log(result)
-    debugger
     document.querySelector('.answer').value = "= " + result;
   }
 
